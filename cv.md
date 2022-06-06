@@ -1,6 +1,6 @@
 ![avatar](avatar.jpg)
 # **Dmitry Piskunov**
-***Contact information:***
+***Contact information***
 * Belarus, Minsk
 * e-mail: pinkskyinyoureyes@gmail.com
 * Telegram: @pinkskyinyoureyes
