@@ -9,7 +9,7 @@
 
 ***About me***
 
-I am 27 years old and I work in the quality control department of a woodworking industry. For 6 years I worked in different positions, and could not find myself in this area because of the monotony. A year ago, I became interested in creating websites, and this interest has grown into an in-depth study. In my free time, I watched tutorial videos on YouTube and mastered layout. I like to immediately see the result of my work and explore new possibilities. In the process of studying the material, I came to the fact that I want to become a front-end developer. And so I found RS School!
+I am 27 years old and I work in the quality control department of a woodworking industry. For 6 years I worked in different positions, and could not find myself in this area because of the monotony. A year ago, I became interested in creating websites, and this interest has grown into an in-depth study. In my free time, I watched tutorial videos on YouTube and mastered layout. I like to immediately see the result of my work and explore new possibilities. In the process of studying the material, I came to the fact that I want to become a front-end developer. And so I found [RS School](https://rs.school/)!
 
 > CARPE DIEM
 
