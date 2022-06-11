@@ -1,14 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600;700&display=swap");
 /* --------------------------------------------- */
 body {
-  max-width: 595px;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
   font-family: "Inter";
+  line-height: 20px;
 }
 
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: 100vh;
 }
 
 .wrapper header {
@@ -35,17 +39,20 @@ body {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 20px;
+  cursor: default;
 }
 
 .wrapper header .info p:nth-child(2) {
   font-size: 12px;
   font-weight: 100;
+  cursor: default;
 }
 
 .wrapper header .info p:nth-child(3) {
   font-size: 12px;
   font-weight: 100;
   margin-bottom: 10px;
+  cursor: default;
 }
 
 .wrapper header .info p:nth-child(4) {
@@ -94,6 +101,7 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 40px 0px 0px 25px;
+  cursor: default;
 }
 
 .wrapper header .skills p {
@@ -104,4 +112,26 @@ body {
   margin: 3px 3px;
   border: 1.5px solid #ffffff;
   border-radius: 8px;
+}
+
+.wrapper main {
+  width: 500px;
+  margin-left: 50px;
+  color: #262930;
+}
+
+.wrapper main h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+.wrapper main p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.wrapper main p img {
+  margin-right: 5px;
 }
