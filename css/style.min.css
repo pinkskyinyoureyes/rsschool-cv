@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600;700&display=swap");
+/* --------------------------------------------- */
+body {
+  max-width: 595px;
+  font-family: "Inter";
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper header {
+  width: 300px;
+  background-color: #262930;
+}
+
+.wrapper header .avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+
+.wrapper header .info {
+  margin: 60px 0px 0px 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.wrapper header .info p:first-child {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.wrapper header .info p:nth-child(2) {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.wrapper header .info p:nth-child(3) {
+  font-size: 12px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.wrapper header .info p:nth-child(4) {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.wrapper header .info p:nth-child(4) a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffffff;
+}
+
+.wrapper header .info p:last-child {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 50px;
+}
+
+.wrapper header .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+}
+
+.wrapper header .links img {
+  margin: 0px 10px 0px 10px;
+}
+
+.wrapper header .skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 40px 0px 0px 25px;
+}
+
+.wrapper header .skills p {
+  font-weight: 600;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 4px 12px 4px 12px;
+  margin: 3px 3px;
+  border: 1.5px solid #ffffff;
+  border-radius: 8px;
+}
