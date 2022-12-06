@@ -40,8 +40,8 @@ function EvenOrOdd(number) {
 ***Experience***
 
 I make layouts and pet-projects in my free time.
-[Registration form](https://github.com/pinkskyinyoureyes/registration-form) - in the process
-[Simple avatar generator](https://github.com/pinkskyinyoureyes/simple-avatar-generator) - in the process
+* [Registration form](https://github.com/pinkskyinyoureyes/registration-form) - in the process
+* [Simple avatar generator](https://github.com/pinkskyinyoureyes/simple-avatar-generator) - in the process
 
 ***Education***
 
