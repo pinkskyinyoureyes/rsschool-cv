@@ -6,6 +6,7 @@
 
 * Belarus, Minsk
 * pinkskyinyoureyes@gmail.com
+* [Discord](https://discordapp.com/users/981160227804155946/)
 * [Telegram](https://t.me/pinkskyinyoureyes/)
 * [Instagram](https://www.instagram.com/pinkskyinyoureyes/)
 * [LinkedIn](https://www.linkedin.com/in/pinkskyinyoureyes/)
@@ -39,6 +40,8 @@ function EvenOrOdd(number) {
 ***Experience***
 
 I make layouts and pet-projects in my free time.
+[Registration form](https://github.com/pinkskyinyoureyes/registration-form) - in the process
+[Simple avatar generator](https://github.com/pinkskyinyoureyes/simple-avatar-generator) - in the process
 
 ***Education***
 
