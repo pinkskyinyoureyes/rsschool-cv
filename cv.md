@@ -23,3 +23,32 @@ I am 27 years old and I work in the quality control department of a woodworking 
 * JavaScript (basics)
 * Git, GitHub
 * VS Code, Figma, Chrome DevTools
+
+***Code example***
+
+```JS
+function EvenOrOdd(number) {
+  if (number % 2 == 0) {
+    return "Even"
+  } else {
+    return "Odd"
+  }
+}
+```
+
+***Experience***
+
+I make layouts and pet-projects in my free time.
+
+***Education***
+
+* Belarusian State Technological University
+    * Specialty: Technology of woodworking industries
+    * Qualification: Technician-technologist
+* The Rolling Scopes School - JS/FE Pre-School 2022Q4  
+
+***Languages***
+* Belarusian - native speaker
+* Russian - native speaker
+* English - A1 (upload every day)
+* Slovak (began to study)
