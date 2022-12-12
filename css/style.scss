@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+    line-height: 20px;
+        .wrapper {
+            display: flex;
+            height: 100vh;
+                .container__navigation {
+                    position: absolute;
+                    padding-left: 340px;
+                        .navigation {
+                            display: flex;
+                            justify-content: space-between;
+                            width: 600px;
+                            color: #262930;
+                            font-weight: 600;
+                            font-size: 12px;
+                                .nav-item {
+                                    margin-top: 30px;
+                                        .nav-link {
+                                            border: 1.5px solid #262930;
+                                            border-radius: 8px;
+                                            padding: 4px 12px 4px 12px;
+                                            color: #262930;
+                                        }
+                                        .nav-link:hover {
+                                            color: #5ab78b;
+                                            transition: 0.3s;
+                                            border: 1.5px solid #5ab78b;
+                                            filter: drop-shadow(0px 0px 10px #5ab78b);
+                                        }
+                                }    
+                        }
+                }
+                .container__header {
+                    height: 100vh;
+                    width: 300px;
+                    background-color: #262930;
+                        .image__avatar {
+                            display: flex;
+                            justify-content: center;
+                                .avatar {
+                                    width: 200px;
+                                    height: 200px;
+                                    border-radius: 50%;
+                                    margin: 30px 10px 0px 10px;
+                                    filter: drop-shadow(0px 0px 70px #5ab78b);
+                                    box-shadow: 15px 30px 80px 0px rgba(0,0,0,0.75);
+                                }
+                        }
+                        .section__profile {
+                            margin-top: 60px;
+                                .info {
+                                    text-align: center;
+                                    color: #ffffff;
+                                        h1 {
+                                            font-size: 18px;
+                                            font-weight: 600;
+                                            margin-bottom: 50px;
+                                            cursor: default;
+                                        }
+                                        p:nth-child(2) {
+                                            font-size: 12px;
+                                            font-weight: 100;
+                                            cursor: default;
+                                        }
+                                        p:nth-child(3) {
+                                            font-size: 12px;
+                                            font-weight: 400;
+                                            margin-top: 50px;
+                                            cursor: default;
+                                        }
+                                        p:last-child {
+                                            font-size: 12px;
+                                            font-weight: 400;
+                                            margin-top: 50px;
+                                        }
+                            }
+                        }
+                        .links {
+                            display: flex;
+                            justify-content: center;
+                            margin-top: 20px;
+                                .links-icon {
+                                    margin: 0px 10px 0px 10px;
+                                }
+                        }
+                        .skills {
+                            display: flex;
+                            flex-wrap: wrap;
+                            margin: 50px 0px 0px 25px;
+                            cursor: default;
+                                .skills-item {
+                                    font-weight: 600;
+                                    font-size: 12px;
+                                    color: #ffffff;
+                                    padding: 4px 12px 4px 12px;
+                                    margin: 3px 3px;
+                                    border: 1.5px solid #ffffff;
+                                    border-radius: 8px;
+                                }
+                                .skills-item:hover {
+                                    border: 1.5px solid #5ab78b;
+                                    color: #5ab78b;
+                                    transition: 0.3s;
+                                    filter: drop-shadow(0px 0px 5px #5ab78b);
+                                }
+                        }
+                }
+                .container__main {
+                    width: 600px;
+                    margin: 50px 40px 0px 40px;
+                    color: #262930;
+                    display: flex;
+                    flex-direction: column;
+                        h2 {
+                            font-size: 18px;
+                            font-weight: 600;
+                            margin: 30px 0px 10px 25px;
+                        }
+                        .education {
+                            .education-item:nth-child(2) {
+                                padding-left: 20px;
+                            }
+                            .education-item:nth-child(3) {
+                                padding-left: 40px;
+                            }
+                            .education-item:last-child {
+                                margin-top: 10px;
+                            }
+                        }
+                        .section__experience {
+                            display: flex;
+                            flex-direction: column;
+                                p {
+                                    font-size: 14px;
+                                }
+                                .projects {
+                                    display: flex;
+
+                                    .project-link {
+                                        color: #262930;
+                                        font-weight: 600;
+                                        margin: 10px 6px 0px 0px;
+                                        border: 1.5px solid #262930;
+                                        border-radius: 8px;
+                                        padding: 4px 12px 4px 12px;
+                                    }
+                                    .project-link:hover {
+                                        content: "View";
+                                        border: 1.5px solid #5ab78b;
+                                        color: #5ab78b;
+                                        transition: 0.3s;
+                                        filter: drop-shadow(0px 0px 5px #5ab78b);
+                                    }
+                                    .project-link::before {
+                                        content: "<";
+                                        color: #000000;
+                                    }
+                                    .project-link::after {
+                                        content: "/>";
+                                        color: #000000;
+                                    }
+                                }
+                        }
+                        .section__code-example {
+                            h2 {
+                                margin-bottom: 10px;
+                            }
+                            pre {
+                                background-color: #262930;
+                                border-radius: 10px;
+                                    .code-1 {
+                                        color: #ae10de;
+                                    }
+                                    .name {
+                                        color: #fff200;
+                                    }
+                                    .answer {
+                                        color: #22ba73;
+                                    }
+                                    .argument {
+                                        color: #10b1de;
+                                    }
+                                    .symbol {
+                                        color: #ca6405;
+                                    }
+                                    .number {
+                                        color: #ff1900;
+                                    }
+                            }
+                        }
+                }              
+        }    
+        .container__footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 300px;
+            background-color: #262930;
+                a:first-child {
+                    margin-bottom: 10px;
+                }
+                a:last-child {
+                    margin: 0px 10px 10px 0px;
+                }
+                p {
+                    margin-bottom: 10px;
+                    cursor: default;
+                }
+        }
+}
