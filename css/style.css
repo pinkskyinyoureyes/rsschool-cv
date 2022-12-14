@@ -11,8 +11,12 @@ body {
   line-height: 20px;
 }
 body .wrapper {
-  display: flex;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: minmax(220px, 300px) minmax(400px, 680px);
+  grid-template-areas: "header main main" "header main main" "footer main";
   height: 100vh;
+  margin: 0;
 }
 body .wrapper .container__navigation {
   position: absolute;
@@ -42,9 +46,9 @@ body .wrapper .container__navigation .navigation .nav-item .nav-link:hover {
   filter: drop-shadow(0px 0px 10px #5ab78b);
 }
 body .wrapper .container__header {
-  height: 100vh;
-  width: 300px;
+  height: 100%;
   background-color: #262930;
+  grid-area: header;
 }
 body .wrapper .container__header .image__avatar {
   display: flex;
@@ -90,6 +94,7 @@ body .wrapper .container__header .section__profile .info p:last-child {
 body .wrapper .container__header .links {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 20px;
 }
 body .wrapper .container__header .links .links-icon {
@@ -98,7 +103,8 @@ body .wrapper .container__header .links .links-icon {
 body .wrapper .container__header .skills {
   display: flex;
   flex-wrap: wrap;
-  margin: 50px 0px 0px 25px;
+  justify-content: center;
+  margin-top: 50px;
   cursor: default;
 }
 body .wrapper .container__header .skills .skills-item {
@@ -117,11 +123,10 @@ body .wrapper .container__header .skills .skills-item:hover {
   filter: drop-shadow(0px 0px 5px #5ab78b);
 }
 body .wrapper .container__main {
-  width: 600px;
   margin: 50px 40px 0px 40px;
-  color: #262930;
   display: flex;
   flex-direction: column;
+  grid-area: main;
 }
 body .wrapper .container__main h2 {
   font-size: 18px;
@@ -195,20 +200,23 @@ body .wrapper .container__main .section__code-example pre .symbol {
 body .wrapper .container__main .section__code-example pre .number {
   color: #ff1900;
 }
-body .container__footer {
+body .wrapper .container__footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 300px;
   background-color: #262930;
+  grid-area: footer;
+  height: 40px;
+  margin-top: -40px;
 }
-body .container__footer a:first-child {
+body .wrapper .container__footer a:first-child {
   margin-bottom: 10px;
 }
-body .container__footer a:last-child {
+body .wrapper .container__footer a:last-child {
   margin: 0px 10px 10px 0px;
 }
-body .container__footer p {
+body .wrapper .container__footer p {
   margin-bottom: 10px;
+  color: #ffffff;
   cursor: default;
 }
