@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="./assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CV</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container__navigation">
+                <ul class="navigation">
+                    <li class="nav-item"><a href="#summary" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </div>
+            <div class="container container__header">
+                <div class="image__avatar">
+                    <img src="./assets/img/avatar.jpg" alt="My photo" class="avatar">
+                </div>
+                <section class="section section__profile">
+                    <div class="info">
+                        <h1>Dmitry Piskunov</h1>
+                        <p>beginner<br>front-end developer</p>
+                        <p><img src="./assets/img/mapmarker.png" width="15" height="15" alt="marker">Minsk</p>
+                        <p>pinkskyinyoureyes@gmail.com</p>
+                    </div>
+                </section>
+                <div class="links">
+                    <a href="https://discordapp.com/users/981160227804155946/" target="_blank"><img src="./assets/svg/discord.svg" class="links-icon" width="25" height="25" alt="Discord"></a>
+                    <a href="https://t.me/pinkskyinyoureyes/" target="_blank"><img src="./assets/svg/telegram.svg" class="links-icon" width="20" height="20" alt="Telegram"></a>
+                    <a href="https://www.linkedin.com/in/pinkskyinyoureyes/" target="_blank"><img src="./assets/svg/linkedin.svg" class="links-icon" width="20" height="20" alt="LinkedIn"></a>
+                </div>
+                <ul class="skills">
+                    <li class="skills-item">HTML</li>
+                    <li class="skills-item">CSS</li>
+                    <li class="skills-item">SASS</li>
+                    <li class="skills-item">Git</li>
+                    <li class="skills-item">GitHub</li>
+                    <li class="skills-item">VS Code</li>
+                    <li class="skills-item">Figma</li>
+                    <li class="skills-item">Chrome DevTools</li>
+                    <li class="skills-item">JavaScript</li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="container container__main">
+                <section class="section section__summary" id="summary">
+                    <h2>About me</h2>
+                    <p>
+                        I am 27 years old and I work in the quality control department of a woodworking industry. A year ago, I became interested in creating websites, and this interest has grown into an in-depth study. In my free time, I watched tutorial videos on YouTube and mastered layout. I like to immediately see the result of my work and explore new possibilities. In the process of studying the material, I came to the fact that I want to become a front-end developer. And so I found <strong>RS School</strong>!
+                    </p>
+                </section>
+                <section class="section section__education" id="education">
+                    <h2>Education</h2>
+                    <ul class="education">
+                        <li class="education-item">Belarusian State Technological University</li>
+                        <li class="education-item">Speciality: Technology of woodworking industries</li>
+                        <li class="education-item">Qualification: Technician-technologist</li>
+                        <li class="education-item">The Rolling Scopes School - JS/FE Pre-School 2022Q4</li>
+                    </ul>
+                </section>
+                <section class="section section__experience" id="experience">
+                    <h2>Experience</h2>
+                    <p>My pet-projects in the process:</p>
+                    <div class="projects">
+                        <a class="project-link" title="View" href="https://github.com/pinkskyinyoureyes/registration-form">Registration form</a>
+                        <br>
+                        <a class="project-link" title="View" href="https://github.com/pinkskyinyoureyes/simple-avatar-generator">Simple avatar generator</a>
+                    </div>
+                </section>
+                <section class="section section__code-example" id="code">
+                    <h2>Code example</h2>
+                        <pre>
+                            <span class="code-1">function</span> <span class="name">EvenOrOdd</span><span class="name">(</span><span class="argument">number</span><span class="name">)</span> <span class="code-1">{</span>
+                                <span class="code-1">if</span> <span class="code-1">(</span><span class="argument">number</span> <span class="symbol">%</span> <span class="number">2</span> <span class="symbol">==</span> <span class="number">0</span><span class="code-1">)</span> <span class="code-1">{</span>
+                                    <span class="code-1">return</span> <span class="answer">"Even"</span>
+                                <span class="code-1">}</span> <span class="code-1">else</span> <span class="code-1">{</span>
+                                    <span class="code-1">return</span> <span class="answer">"Odd"</span>
+                                <span class="code-1">}</span>
+                            <span class="code-1">}</span>
+                        </pre>
+                </section>
+                <section class="section section__languages" id="languages">
+                    <h2>Languages</h2>
+                    <p>Belarusian - native speaker</p>
+                    <p>Russian - native speaker</p>
+                    <p>English - A1 (upload every day)</p>
+                    <p>Slovak (began to study)</p>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="container__footer">
+                <a href="https://rs.school/js/" target="_blank"><img src="./assets/svg/rs_school_js.svg" width="100" height="30" alt="RS Scholl JS"></a>
+                <p>2022</p>
+                <a href="https://github.com/pinkskyinyoureyes" target="_blank"><img src="./assets/svg/github.svg" width="30" height="30" alt=""></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
