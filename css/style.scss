@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Inter";
-    line-height: 20px;
+    line-height: 25px;
         .wrapper {
             display: grid;
             grid-template-rows: 1fr;
@@ -28,13 +28,13 @@ body {
                             width: 600px;
                             color: #262930;
                             font-weight: 600;
-                            font-size: 12px;
+                            font-size: 14px;
                                 .nav-item {
                                     margin-top: 30px;
                                         .nav-link {
                                             border: 1.5px solid #262930;
                                             border-radius: 8px;
-                                            padding: 4px 12px 4px 12px;
+                                            padding: 2px 12px 4px 12px;
                                             color: #262930;
                                         }
                                         .nav-link:hover {
@@ -68,24 +68,27 @@ body {
                                     text-align: center;
                                     color: #ffffff;
                                         h1 {
-                                            font-size: 18px;
+                                            font-size: 22px;
                                             font-weight: 600;
                                             margin-bottom: 50px;
                                             cursor: default;
                                         }
                                         p:nth-child(2) {
-                                            font-size: 12px;
+                                            font-size: 14px;
                                             font-weight: 100;
                                             cursor: default;
                                         }
                                         p:nth-child(3) {
-                                            font-size: 12px;
+                                            font-size: 14px;
                                             font-weight: 400;
                                             margin-top: 50px;
                                             cursor: default;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
                                         }
                                         p:last-child {
-                                            font-size: 12px;
+                                            font-size: 14px;
                                             font-weight: 400;
                                             margin-top: 50px;
                                         }
@@ -128,10 +131,14 @@ body {
                     display: flex;
                     flex-direction: column;
                     grid-area: main;
+                    font-size: 16px;
                         h2 {
-                            font-size: 18px;
+                            font-size: 22px;
                             font-weight: 600;
                             margin: 30px 0px 10px 25px;
+                        }
+                        p {
+                            text-align: justify;
                         }
                         .education {
                             .education-item:nth-child(2) {
@@ -147,35 +154,32 @@ body {
                         .section__experience {
                             display: flex;
                             flex-direction: column;
-                                p {
-                                    font-size: 14px;
-                                }
                                 .projects {
                                     display: flex;
-
-                                    .project-link {
-                                        color: #262930;
-                                        font-weight: 600;
-                                        margin: 10px 6px 0px 0px;
-                                        border: 1.5px solid #262930;
-                                        border-radius: 8px;
-                                        padding: 4px 12px 4px 12px;
-                                    }
-                                    .project-link:hover {
-                                        content: "View";
-                                        border: 1.5px solid #5ab78b;
-                                        color: #5ab78b;
-                                        transition: 0.3s;
-                                        filter: drop-shadow(0px 0px 5px #5ab78b);
-                                    }
-                                    .project-link::before {
-                                        content: "<";
-                                        color: #000000;
-                                    }
-                                    .project-link::after {
-                                        content: "/>";
-                                        color: #000000;
-                                    }
+                                    font-size: 14px;
+                                        .project-link {
+                                            color: #262930;
+                                            font-weight: 600;
+                                            margin: 10px 6px 0px 0px;
+                                            border: 1.5px solid #262930;
+                                            border-radius: 8px;
+                                            padding: 2px 12px 4px 12px;
+                                        }
+                                        .project-link:hover {
+                                            content: "View";
+                                            border: 1.5px solid #5ab78b;
+                                            color: #5ab78b;
+                                            transition: 0.3s;
+                                            filter: drop-shadow(0px 0px 5px #5ab78b);
+                                        }
+                                        .project-link::before {
+                                            content: "<";
+                                            color: #000000;
+                                        }
+                                        .project-link::after {
+                                            content: "/>";
+                                            color: #000000;
+                                        }
                                 }
                         }
                         .section__code-example {
