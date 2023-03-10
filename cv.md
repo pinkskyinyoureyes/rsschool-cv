@@ -15,7 +15,7 @@
 
 ***About me***
 
-I am 27 years old and I work in the quality control department of a woodworking industry. A year ago, I became interested in creating websites, and this interest has grown into an in-depth study. In my free time, I watched tutorial videos on YouTube and mastered layout. I like to immediately see the result of my work and explore new possibilities. In the process of studying the material, I came to the fact that I want to become a front-end developer. And so I found [RS School](https://rs.school/)!
+Two year ago, I became interested in creating websites, and this interest has grown into an in-depth study. In my free time, I watched tutorial videos on YouTube and mastered layout. I like to see the result of my work and explore new possibilities. In the process of studying the material, I came to the fact that I want to become a front-end developer. A friend showed me a course from [The Rolling Scopes School](https://rs.school/), I really liked it, and first of all because of the powerful community. Since then I have been studying front-end on a [course JavaScript/Front-End](https://rs.school/js).
 
 ***Skills***
 
@@ -39,16 +39,22 @@ function EvenOrOdd(number) {
 
 ***Experience***
 
-I make layouts and pet-projects in my free time.
-* [Registration form](https://github.com/pinkskyinyoureyes/registration-form) - in the process
-* [Simple avatar generator](https://github.com/pinkskyinyoureyes/simple-avatar-generator) - in the process
+My projects from [course](https://rs.school/js-stage0):
+
+* [Plants](https://rolling-scopes-school.github.io/pinkskyinyoureyes-JSFEPRESCHOOL2022Q4/plants)
+* [Momentum](https://rolling-scopes-school.github.io/pinkskyinyoureyes-JSFEPRESCHOOL2022Q4/momentum)
+
+My pet-projects in the process:
+* [Registration form](https://github.com/pinkskyinyoureyes/registration-form)
+* [Simple avatar generator](https://github.com/pinkskyinyoureyes/simple-avatar-generator)
 
 ***Education***
 
 * Belarusian State Technological University
     * Specialty: Technology of woodworking industries
     * Qualification: Technician-technologist
-* The Rolling Scopes School - JS/FE Pre-School 2022Q4  
+* The Rolling Scopes School - JS/FE Pre-School 2022Q4
+* The Rolling Scopes School - JavaScript/Front-end 2023Q1  
 
 ***Languages***
 * Belarusian - native speaker

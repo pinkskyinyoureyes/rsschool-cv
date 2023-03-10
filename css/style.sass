@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100400600700&display=swap')
+
+$colorGreenNeon: #5ab78b
+$colorDarkGrey: #262930
+$colorGrey: #404348
+$colorWhite: #ffffff
+
+
+html 
+    scroll-behavior: smooth
+    background-color: $colorDarkGrey
+
+body 
+    display: flex
+    flex-direction: column
+    height: 100vh
+    width: 700px
+    margin: 0 auto
+    padding: 0
+    font-family: "Inter", sans-serif
+    line-height: 25px
+    .wrapper 
+        
+        // margin: 0 auto
+        .container__navigation 
+            display: flex
+            justify-content: center
+            .navigation 
+                display: flex
+                justify-content: space-between
+                margin-top: 30px
+                width: 600px
+                color: $colorDarkGrey
+                font-weight: 600
+                font-size: 14px
+                .nav-link 
+                    border: 1.5px solid $colorGrey
+                    border-radius: 8px
+                    padding: 2px 12px 4px 12px
+                    color: $colorGrey
+                .nav-link:hover 
+                    color: $colorGreenNeon
+                    transition: 0.3s
+                    border: 1.5px solid $colorGreenNeon
+                    filter: drop-shadow(0px 0px 10px $colorGreenNeon)
+        .container__header 
+            // height: 100%
+            // background-color: $colorDarkGrey
+            // grid-area: header
+            display: flex
+            flex-direction: column
+            .image__avatar 
+                display: flex
+                justify-content: center
+                .avatar 
+                    width: 200px
+                    height: 200px
+                    border-radius: 50%
+                    margin: 50px 0px 20px 0px
+                    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75)
+                    animation: changeColor 20s infinite
+                @keyframes changeColor
+                    0%
+                        filter: drop-shadow(0px 0px 10px $colorGreenNeon)
+                    50%
+                        filter: drop-shadow(0px 0px 80px $colorGreenNeon)
+                    100%
+                        filter: drop-shadow(0px 0px 10px $colorGreenNeon)
+                .section__profile 
+                    margin-top: 60px
+                    .info
+                        display: flex
+                        .name 
+                            font-size: 22px
+                            font-weight: 600
+                            margin-bottom: 50px
+                            cursor: default
+                            color: $colorWhite
+                        p:nth-child(2) 
+                            font-size: 14px
+                            font-weight: 100
+                            cursor: default
+                        p:nth-child(3) 
+                            font-size: 14px
+                            font-weight: 400
+                            margin-top: 50px
+                            cursor: default
+                            display: flex
+                            justify-content: center
+                            align-items: center
+                        p:last-child 
+                            font-size: 14px
+                            font-weight: 400
+                            margin-top: 50px
+                .links 
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    margin-top: 20px
+                    .links-icon 
+                        margin: 0px 10px 0px 10px
+                .skills 
+                    display: flex
+                    flex-wrap: wrap
+                    justify-content: center
+                    margin-top: 50px
+                    cursor: default
+                    .skills-item 
+                        font-weight: 600
+                        font-size: 12px
+                        color: $colorWhite
+                        padding: 4px 12px 4px 12px
+                        margin: 3px 3px
+                        border: 1.5px solid $colorWhite
+                        border-radius: 8px
+                    .skills-item:hover 
+                        border: 1.5px solid $colorGreenNeon
+                        color: $colorGreenNeon
+                        transition: 0.3s
+                        filter: drop-shadow(0px 0px 5px $colorGreenNeon)
+        .container__main 
+            margin: 50px 40px 0px 40px
+            display: flex
+            flex-direction: column
+            font-size: 16px
+            h2 
+                font-size: 22px
+                font-weight: 600
+                margin: 30px 0px 10px 25px
+            p 
+                text-align: justify
+            .education 
+                .education-item:nth-child(2) 
+                    padding-left: 20px
+                .education-item:nth-child(3) 
+                    padding-left: 40px
+                .education-item:nth-child(4) 
+                    margin-top: 10px
+            .section__experience 
+                display: flex
+                flex-direction: column
+                .course-link 
+                    color: $colorGreenNeon
+                    filter: drop-shadow(0px 0px 5px $colorGreenNeon)
+                .projects 
+                    display: flex
+                    font-size: 14px
+                    .project-link 
+                        color: $colorGrey
+                        font-weight: 600
+                        margin: 10px 6px 10px 0px
+                        border: 1.5px solid $colorGrey
+                        border-radius: 8px
+                        padding: 2px 12px 4px 12px
+                    .project-link:hover 
+                        content: "View"
+                        border: 1.5px solid $colorGreenNeon
+                        color: $colorGreenNeon
+                        transition: 0.3s
+                        filter: drop-shadow(0px 0px 5px $colorGreenNeon)
+                    .project-link::before 
+                        content: "<"
+                        color: $colorGrey
+                    .project-link::after 
+                        content: "/>"
+                        color: $colorGrey
+            .section__code-example 
+                h2 
+                    margin-bottom: 10px
+                pre 
+                    background-color: $colorDarkGrey
+                    border-radius: 10px
+                    .code-1 
+                        color: #ae10de
+                    .name 
+                        color: #fff200
+                    .answer 
+                        color: #22ba73
+                    .argument 
+                        color: #10b1de
+                    .symbol 
+                        color: #ca6405
+                    .number 
+                        color: #ff1900
+        .container__footer 
+            display: flex
+            justify-content: space-between
+            align-items: center
+            background-color: $colorDarkGrey
+            height: 40px
+            margin: 30px 0px 30px 0px
+            p 
+                color: $colorWhite
+                cursor: default
