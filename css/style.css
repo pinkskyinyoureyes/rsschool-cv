@@ -46,12 +46,12 @@ body .wrapper .container__header {
 body .wrapper .container__header .image__avatar {
   display: flex;
   justify-content: center;
+  margin: 50px 0px 0px 0px;
 }
 body .wrapper .container__header .image__avatar .avatar {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin: 50px 0px 20px 0px;
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.75);
   animation: changeColor 15s infinite;
 }
@@ -67,7 +67,7 @@ body .wrapper .container__header .image__avatar .avatar {
   }
 }
 body .wrapper .container__header .section__profile {
-  margin-top: 60px;
+  margin-top: 50px;
 }
 body .wrapper .container__header .section__profile .info {
   display: flex;
@@ -81,6 +81,9 @@ body .wrapper .container__header .section__profile .info .name {
   cursor: default;
   color: #ffffff;
 }
+body .wrapper .container__header .section__profile .info .marker {
+  margin: 0px 3px 5px 0px;
+}
 body .wrapper .container__header .section__profile .info p:nth-child(2) {
   font-size: 14px;
   font-weight: 100;
@@ -91,7 +94,7 @@ body .wrapper .container__header .section__profile .info p:nth-child(3) {
   font-size: 14px;
   font-weight: 400;
   color: #ffffff;
-  margin-top: 50px;
+  margin: 50px 0px 0px 0px;
   cursor: default;
   display: flex;
   justify-content: center;
@@ -103,20 +106,26 @@ body .wrapper .container__header .section__profile .info p:last-child {
   margin-top: 50px;
   color: #ffffff;
 }
+body .wrapper .container__header .section__profile .info .email {
+  color: #ffffff;
+  margin: 20px 0px 20px 0px;
+}
 body .wrapper .container__header .links {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  margin-top: 20px;
 }
-body .wrapper .container__header .links .links-icon {
-  margin: 0px 10px 0px 10px;
+body .wrapper .container__header a:first-child {
+  margin-bottom: 2px;
+}
+body .wrapper .container__header a:nth-child(4) {
+  margin-bottom: 3px;
 }
 body .wrapper .container__header .skills {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 50px;
+  margin: 50px 0px 20px 0px;
   cursor: default;
 }
 body .wrapper .container__header .skills .skills-item {
@@ -135,7 +144,7 @@ body .wrapper .container__header .skills .skills-item:hover {
   filter: drop-shadow(0px 0px 5px #5ab78b);
 }
 body .wrapper .container__main {
-  margin: 50px 40px 0px 40px;
+  margin: 0px 40px 0px 40px;
   display: flex;
   flex-direction: column;
   font-size: 16px;
@@ -151,6 +160,16 @@ body .wrapper .container__main .rss:visited {
 body .wrapper .container__main .rss-course:visited {
   color: #f7e018;
   filter: drop-shadow(0px 0px 5px #f7e018);
+}
+body .wrapper .container__main .rss:hover {
+  color: #f7e018;
+  transition: 0.3s;
+  filter: drop-shadow(0px 0px 15px #f7e018);
+}
+body .wrapper .container__main .rss-course:hover {
+  color: #f7e018;
+  transition: 0.3s;
+  filter: drop-shadow(0px 0px 15px #f7e018);
 }
 body .wrapper .container__main h2 {
   font-size: 22px;
@@ -174,6 +193,14 @@ body .wrapper .container__main .education .education-item:nth-child(3) {
 }
 body .wrapper .container__main .education .education-item:nth-child(4) {
   margin-top: 10px;
+}
+body .wrapper .container__main .education .certificate-link {
+  color: #5ab78b;
+  filter: drop-shadow(0px 0px 15px #5ab78b);
+}
+body .wrapper .container__main .education .certificate-link:visited {
+  color: #5ab78b;
+  filter: drop-shadow(0px 0px 15px #5ab78b);
 }
 body .wrapper .container__main .section__experience {
   display: flex;
