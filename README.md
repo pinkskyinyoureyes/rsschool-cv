@@ -1,3 +1,3 @@
-https://pinkskyinyoureyes.github.io/rsschool-cv/cv
+[CV (Markdown)](https://pinkskyinyoureyes.github.io/rsschool-cv/cv)
 
-https://pinkskyinyoureyes.github.io/rsschool-cv/
+[CV (HTML, CSS)](https://pinkskyinyoureyes.github.io/rsschool-cv/)
