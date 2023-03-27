@@ -43,6 +43,7 @@ My projects from [course](https://rs.school/js-stage0):
 
 * [Plants](https://rolling-scopes-school.github.io/pinkskyinyoureyes-JSFEPRESCHOOL2022Q4/plants)
 * [Momentum](https://rolling-scopes-school.github.io/pinkskyinyoureyes-JSFEPRESCHOOL2022Q4/momentum)
+* [cssBayan](https://pinkskyinyoureyes.github.io/cssBayan/cssBayan/index.html)
 
 My pet-projects in the process:
 * [Registration form](https://github.com/pinkskyinyoureyes/registration-form)
