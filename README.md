@@ -1,1 +1,1 @@
-https://pinkskyinyoureyes.github.io/rsschool-cv/
+[CV (HTML, CSS)](https://pinkskyinyoureyes.github.io/rsschool-cv/)
